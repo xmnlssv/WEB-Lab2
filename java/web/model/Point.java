@@ -16,14 +16,14 @@ public class Point {
         this.isInArea = isInside(x, y, r);
     }
 
-    private boolean isInside(int x, double y, double r) {
+    private boolean isInside(double x, double y, double r) {
         // Треугольник в 1 четверти
         if (x >= 0 && y >= 0) {
-            return (x <= r) && (y <= r / 2) && (2 * y - 2 * x <= r);
+            return (x <= r) && (y <= r / 2 - x / 2) && (y <= r / 2);
         }
         // Прямоугольник во 2 четверти
         if (x < 0 && y >= 0) {
-            return (x >= -r / 2) && (y <= r) && (2 *y - 2*x <= r);
+            return (x >= -r / 2) && (y <= r);
         }
         // Сектор в 3 четверти
         if (x <= 0 && y <= 0) {
