@@ -33,8 +33,8 @@ function addToTable(x, y, r, result) {
   newRow.insertCell().innerText = y;
   newRow.insertCell().innerText = r;
   newRow.insertCell().innerHTML = result
-    ? "<span class=\"success\">true</span>"
-    : "<span class=\"fail\">false</span>";
+    ? "<span class=\"success\">Попал</span>"
+    : "<span class=\"fail\">Промазал</span>";
 }
 
 async function checkPoint(x, y, r) {
@@ -81,8 +81,6 @@ function handleHttpStatus(status) {
     case 500:
       createNotification("Внутренняя ошибка сервера (500).");
       break;
-    case 422:
-      createNotification("Сервер не смог обработать данные (422)")
     default:
       createNotification(`Неизвестная ошибка (статус ${status}).`);
   }
@@ -165,6 +163,7 @@ document.getElementById("checkButton").onclick = function () {
         value: value
       }).appendTo(form);
     });
+
     form.appendTo('body').submit()
   }
 };
@@ -188,6 +187,8 @@ function createNotification(message) {
 }
 
 function validateX() {
+  const selectX = document.getElementById("X-list");
+  x = parseFloat(selectX.value);
   if (isNumeric(x)) return true;
   else {
     createNotification("Значение X не выбрано");

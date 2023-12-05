@@ -25,9 +25,7 @@
 
   <tr>
     <td rowspan="3">Выберите X:</td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="-3"></td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="-2"></td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="-1"></td>
+    <td colspan="3"></td>
     <td rowspan="6">
       <svg xmlns="http://www.w3.org/2000/svg" id="svg">
         <line x1="0" y1="150" x2="300" y2="150" stroke="#000720"></line>
@@ -52,14 +50,14 @@
         <polygon points="300,150 295,155 295, 145" fill="#000720" stroke="#000720"></polygon>
         <polygon points="150,0 145,5 155,5" fill="#000720" stroke="#000720"></polygon>
 
-<%--        square--%>
+        <%--        square--%>
         <rect x="90" y="30" width="60" height="120" fill-opacity="0.4" stroke="navy" fill="#00FFFF"></rect>
 
 
         <polygon points="270,150 150,150 150,90" fill-opacity="0.4" stroke="navy" fill="#00FFFF"></polygon>
 
-<%--        sector--%>
-<%--        <path d="M 150 150 L 270 150 C 270 80 220 30 150 30 L Z" fill-opacity="0.4" stroke="navy" fill="blue" />--%>
+        <%--        sector--%>
+        <%--        <path d="M 150 150 L 270 150 C 270 80 220 30 150 30 L Z" fill-opacity="0.4" stroke="navy" fill="blue" />--%>
         <path d="M 150 150 L 150 270 A 150 150 0 0 1 30 150 Z" fill-opacity="0.4" stroke="navy" fill="#00FFFF"/>
 
 
@@ -67,14 +65,22 @@
     </td>
   </tr>
   <tr>
-    <td><input name="X-button" class="illuminated animated" type="button" value="0"></td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="1"></td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="2"></td>
+    <td colspan="3">
+      <select name="X-button" id="X-list">
+        <option value="-3">-3</option>
+        <option value="-2">2</option>
+        <option value="-1">-1</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </td>
   </tr>
   <tr>
-    <td><input name="X-button" class="illuminated animated" type="button" value="3"></td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="4"></td>
-    <td><input name="X-button" class="illuminated animated" type="button" value="5"></td>
+    <td colspan="3"></td>
   </tr>
 
   <tr>
@@ -83,7 +89,7 @@
                            placeholder="-5..5" maxlength="6"
                            pattern="^-[0-5]|[0-5]" required></td>
   </tr>
-
+  <tr></tr>
   <tr>
     <td rowspan="2">Выберите R:</td>
     <td>1<input name="R-radio-group" class="illuminated animated" type="radio" value="1"></td>
@@ -95,7 +101,9 @@
     <td>5<input name="R-radio-group" class="illuminated animated" type="radio" value="5"></td>
   </tr>
 
-  <tr>
+
+
+<tr>
     <td colspan="5">
       <button type="submit" id="checkButton">Отправить</button>
     </td>

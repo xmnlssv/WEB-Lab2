@@ -32,6 +32,10 @@ tfoot * {
   margin: 80px auto;
 }
 
+select {
+  width: 150px;
+}
+
 input,
 svg {
   width: 100%;
@@ -86,12 +90,12 @@ figcaption {
 
 .success {
   font-weight: bold;
-  color: greenyellow;
+  color: #24fa92;
 }
 
 .fail {
   font-weight: bold;
-  color: red;
+  color: #f62f2f;
 }
 
 hr {

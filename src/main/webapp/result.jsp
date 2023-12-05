@@ -26,9 +26,6 @@
   </thead>
 
   <tbody>
-  <tr>
-    <td colspan="5"><hr></td>
-  </tr>
   </tbody>
 
   <tfoot>
@@ -54,7 +51,7 @@
           <th>X</th>
           <th>Y</th>
           <th>R</th>
-          <th>Точка входит в ОДЗ</th>
+          <th>Результат</th>
         </tr>
         <% for (Point point : pointService.getPoints()) { %>
         <tr>
