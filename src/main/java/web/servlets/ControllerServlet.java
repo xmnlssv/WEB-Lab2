@@ -25,15 +25,15 @@ public class ControllerServlet extends HttpServlet {
 
         try {
             if (
-                    Double.parseDouble(request.getParameter("Y")) < -5
-                            || Double.parseDouble(request.getParameter("Y")) > 5
+                    Double.parseDouble(request.getParameter("y")) < -5
+                            || Double.parseDouble(request.getParameter("y")) > 5
             ) {
                 sendError(response, DATA_VALIDATION_ERROR, UNPROCESSABLE_ENTITY);
                 return;
             }
 
-            Integer.parseInt(request.getParameter("X"));
-            Integer.parseInt(request.getParameter("R"));
+            Integer.parseInt(request.getParameter("x"));
+            Integer.parseInt(request.getParameter("r"));
 
             response.sendRedirect("./checkArea?" + request.getQueryString());
         } catch (NumberFormatException e) {
