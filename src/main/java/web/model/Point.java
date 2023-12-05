@@ -3,13 +3,13 @@ package web.model;
 import java.util.Objects;
 
 public class Point {
-    private final int x;
+    private final double x;
     private final double y;
     private final int r;
 
     private final boolean isInArea;
 
-    public Point(int x, double y, int r) {
+    public Point(double x, double y, int r) {
         this.x = x;
         this.y = y;
         this.r = r;

@@ -32,7 +32,7 @@ public class ControllerServlet extends HttpServlet {
                 return;
             }
 
-            Integer.parseInt(request.getParameter("x"));
+            Double.parseDouble(request.getParameter("x"));
             Integer.parseInt(request.getParameter("r"));
 
             response.sendRedirect("./checkArea?" + request.getQueryString());

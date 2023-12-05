@@ -86,12 +86,12 @@ figcaption {
 
 .success {
   font-weight: bold;
-  color: #048989;
+  color: greenyellow;
 }
 
 .fail {
   font-weight: bold;
-  color: #0036ff;
+  color: red;
 }
 
 hr {

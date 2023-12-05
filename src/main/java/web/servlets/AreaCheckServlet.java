@@ -30,7 +30,7 @@ public class AreaCheckServlet extends HttpServlet {
     private void handleRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try {
-            int x = Integer.parseInt(request.getParameter("x"));
+            double x = Double.parseDouble(request.getParameter("x"));
             double y = Double.parseDouble(request.getParameter("y"));
             int r = Integer.parseInt(request.getParameter("r"));
             Point point = new Point(x, y, r);

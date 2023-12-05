@@ -9,7 +9,7 @@ function drawPoint(x, y, r, result) {
   circle.setAttribute("cx", x * 60 * 2 / r + 150);
   circle.setAttribute("cy", -y * 60 * 2 / r + 150);
   circle.setAttribute("r", 3);
-  circle.style.fill = result ? "#09a53d" : "#a50909";
+  circle.style.fill = result ? "#2d0bc4" : "#2d0bc4";
   svg.appendChild(circle);
 }
 
@@ -81,6 +81,8 @@ function handleHttpStatus(status) {
     case 500:
       createNotification("Внутренняя ошибка сервера (500).");
       break;
+    case 422:
+      createNotification("Сервер не смог обработать данные (422)")
     default:
       createNotification(`Неизвестная ошибка (статус ${status}).`);
   }

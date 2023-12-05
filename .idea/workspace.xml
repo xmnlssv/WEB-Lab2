@@ -10,26 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72d7a9e9-3de5-4b7c-adac-de7e884cfdfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/servlets/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/servlets/AreaCheckServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/servlets/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/servlets/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/AreaCheckServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/stylesheets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/PointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/PointService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/servlets/AreaCheckServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/servlets/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/SourceSerifPro-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/SourceSerifPro-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/favicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/favicon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo_footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/logo_footer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/SourceSerifPro-Regular.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/stylesheets/styles.css" afterDir="false" />
     </list>
@@ -156,11 +160,23 @@
       <workItem from="1701797327706" duration="967000" />
       <workItem from="1701798301691" duration="2936000" />
       <workItem from="1701801803597" duration="883000" />
+      <workItem from="1701804026942" duration="3985000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
