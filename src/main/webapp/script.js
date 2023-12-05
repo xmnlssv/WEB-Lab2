@@ -9,7 +9,7 @@ function drawPoint(x, y, r, result) {
   circle.setAttribute("cx", x * 60 * 2 / r + 150);
   circle.setAttribute("cy", -y * 60 * 2 / r + 150);
   circle.setAttribute("r", 3);
-  circle.style.fill = result ? "#09a53d" : "#a50909";
+  circle.style.fill = result ? "#2d0bc4" : "#2d0bc4";
   svg.appendChild(circle);
 }
 
@@ -33,8 +33,8 @@ function addToTable(x, y, r, result) {
   newRow.insertCell().innerText = y;
   newRow.insertCell().innerText = r;
   newRow.insertCell().innerHTML = result
-    ? "<span class=\"success\">true</span>"
-    : "<span class=\"fail\">false</span>";
+    ? "<span class=\"success\">Попал</span>"
+    : "<span class=\"fail\">Промазал</span>";
 }
 
 async function checkPoint(x, y, r) {
@@ -81,8 +81,6 @@ function handleHttpStatus(status) {
     case 500:
       createNotification("Внутренняя ошибка сервера (500).");
       break;
-    case 422:
-      createNotification("Серверу не удалось обработать инструкции содержимого")
     default:
       createNotification(`Неизвестная ошибка (статус ${status}).`);
   }
@@ -165,6 +163,10 @@ document.getElementById("checkButton").onclick = function () {
         value: value
       }).appendTo(form);
     });
+
+    // const w = window.open("about:blank", "_self", "noreferrer");
+    // w.document.write(form[0].outerHTML);
+    // w.document.forms[0].submit();
     form.appendTo('body').submit()
   }
 };
