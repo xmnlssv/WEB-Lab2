@@ -33,8 +33,8 @@ function addToTable(x, y, r, result) {
   newRow.insertCell().innerText = y;
   newRow.insertCell().innerText = r;
   newRow.insertCell().innerHTML = result
-    ? "<span class=\"success\">Попал</span>"
-    : "<span class=\"fail\">Промазал</span>";
+    ? "<span class=\"success\">true</span>"
+    : "<span class=\"fail\">false</span>";
 }
 
 async function checkPoint(x, y, r) {
