@@ -81,8 +81,6 @@ function handleHttpStatus(status) {
     case 500:
       createNotification("Внутренняя ошибка сервера (500).");
       break;
-    case 422:
-      createNotification("Сервер не смог обработать данные (422)")
     default:
       createNotification(`Неизвестная ошибка (статус ${status}).`);
   }
@@ -165,6 +163,7 @@ document.getElementById("checkButton").onclick = function () {
         value: value
       }).appendTo(form);
     });
+
     form.appendTo('body').submit()
   }
 };
@@ -188,6 +187,8 @@ function createNotification(message) {
 }
 
 function validateX() {
+  const selectX = document.getElementById("X-list");
+  x = parseFloat(selectX.value);
   if (isNumeric(x)) return true;
   else {
     createNotification("Значение X не выбрано");
@@ -203,7 +204,7 @@ function validateY() {
   } else if (!isNumeric(y)) {
     createNotification("Y не число");
     return false;
-  } else if (y < -3 || y > 5) {
+  } else if (y < -5 || y > 5) {
     createNotification("Y не входит в область допустимых значений");
     return false;
   } else return true;

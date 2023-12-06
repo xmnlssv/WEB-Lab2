@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ page import="web.service.PointService" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="web.model.Point" %>
+<%@ page import="java.util.List" %>
 
 <!DOCTYPE html>
 <html lang="ru-RU">
@@ -26,16 +26,14 @@
   </thead>
 
   <tbody>
-  <tr>
-    <td colspan="5"><hr></td>
-  </tr>
   </tbody>
 
   <tfoot>
   <tr>
     <td colspan="5" id="outputContainer">
-      <% PointService pointService = (PointService) request.getSession().getAttribute("bean");
-        if (pointService == null) {
+      <%
+        List<Point> points = (List<Point>) application.getAttribute("points");
+        if (points == null || points.isEmpty()) {
       %>
       <h4>
         <span id="notifications" class="outputStub notification">Нет результатов</span>
@@ -54,9 +52,9 @@
           <th>X</th>
           <th>Y</th>
           <th>R</th>
-          <th>Точка входит в ОДЗ</th>
+          <th>Результат</th>
         </tr>
-        <% for (Point point : pointService.getPoints()) { %>
+        <% for (Point point : points) { %>
         <tr>
           <td>
             <%= point.getX() %>

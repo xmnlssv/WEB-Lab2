@@ -16,24 +16,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/service/PointService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/servlets/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/servlets/AreaCheckServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/servlets/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/servlets/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/service/PointService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/AreaCheckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/AreaCheckServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/WEB-INF/classes/web/servlets/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/fonts/SourceSerifPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/web-2-1.0-SNAPSHOT.war/stylesheets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/beans.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/PointService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/servlets/AreaCheckServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/servlets/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/SourceSerifPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/stylesheets/styles.css" afterDir="false" />
     </list>
@@ -160,7 +160,7 @@
       <workItem from="1701797327706" duration="967000" />
       <workItem from="1701798301691" duration="2936000" />
       <workItem from="1701801803597" duration="883000" />
-      <workItem from="1701804026942" duration="3985000" />
+      <workItem from="1701804026942" duration="11332000" />
     </task>
     <servers />
   </component>

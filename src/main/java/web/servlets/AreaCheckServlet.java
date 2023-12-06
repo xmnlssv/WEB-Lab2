@@ -1,19 +1,22 @@
 package web.servlets;
 
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import com.google.gson.Gson;
-import web.service.PointService;
 import web.model.Point;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @WebServlet("/checkArea")
 public class AreaCheckServlet extends HttpServlet {
     private static final String ACTION_SUBMIT_FORM = "submitForm";
     private static final String ACTION_CHECK_POINT = "checkPoint";
+    private static final String POINTS_ATTR = "points";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -35,8 +38,8 @@ public class AreaCheckServlet extends HttpServlet {
             int r = Integer.parseInt(request.getParameter("r"));
             Point point = new Point(x, y, r);
 
-            PointService bean = getPointService(request);
-            bean.addPoint(point);
+            List<Point> points = getPoints(request.getServletContext());
+            points.add(point);
 
             String action = request.getParameter("action");
             if (ACTION_SUBMIT_FORM.equals(action)) {
@@ -51,14 +54,14 @@ public class AreaCheckServlet extends HttpServlet {
         }
     }
 
-    private PointService getPointService(HttpServletRequest request) {
-        HttpSession session = request.getSession();
-        PointService bean = (PointService) session.getAttribute("bean");
-        if (bean == null) {
-            bean = new PointService();
-            session.setAttribute("bean", bean);
+    @SuppressWarnings("unchecked")
+    private List<Point> getPoints(ServletContext context) {
+        List<Point> points = (List<Point>) context.getAttribute(POINTS_ATTR);
+        if (points == null) {
+            points = new ArrayList<>();
+            context.setAttribute(POINTS_ATTR, points);
         }
-        return bean;
+        return points;
     }
 
     private void forwardToResult(HttpServletRequest request, HttpServletResponse response, double x, double y, int r, Point point)
