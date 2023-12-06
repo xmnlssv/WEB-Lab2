@@ -76,7 +76,7 @@
         </td>
     </tr>
     <tr>
-      <td colspan="3"></td>
+        <td colspan="3"></td>
     </tr>
     <tr>
         <td>Введите Y:</td>
